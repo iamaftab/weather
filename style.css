@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background: rgb(173, 179, 173);
+    color: white;
+}
+/* indivdual css */
+.searchBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#query, button{
+    padding: 12px;
+    outline: none;
+    border: none;
+}
+#query{
+    width: 40vw;
+    max-width: 85vw;
+    background: transparent;
+    color: white;
+}
+#searchBtn{
+    background: #934;
+    color: #fff;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6vh;
+}
+.weather{
+    display: flex;
+    flex-direction: column !important;
+}
+#locationTitle{
+    margin: 5px;
+    padding: 2px;
+}
+.temperature{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    height: 25vh;
+}
+#weatherIcon{
+    width: 22vw;
+    height: 25vh;
+}
+
+/* common css */
+.br-left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.br-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.shadow-0{
+    box-shadow: 3px 3px 10px #465;
+}
+.shadow-1{
+    box-shadow: 3px 3px 8px #465,
+            inset -2px 2px 6px #467,
+            inset 2px 2px 6px #467;
+}
